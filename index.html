@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/index.css" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./vendor/flexboxgrid2.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css"
+    />
+    <!-- <link rel="stylesheet" href="./vendor/flexboxgrid2.css" /> -->
     <title>Мой проект</title>
   </head>
   <body>
@@ -50,7 +54,7 @@
         </div>
       </div>
     </section>
-    
+
     <!-- блок Рестораны в Москве -->
     <div class="restbg">
       <div class="restbox">
@@ -59,5 +63,82 @@
         </div>
       </div>
     </div>
+
+    <!-- блок с карточками -->
+
+    <div class="card col-xl-4 col-md-6 col-xs-12">
+      <div>
+        <img src="pictures/png/food/1.png" alt="Макдональдс" />
+      </div>
+
+      <div class="cardtextbg">
+        <p class="restname">
+          Макдоналдс - Газетный
+        </p>
+        <p class="kitchentype">
+          ₽₽ • Бургеры
+        </p>
+        <p class="cookintime">
+          25 - 35 мин
+        </p>
+      </div>
+    </div>
+
+    <div class="card col-xl-4 col-md-6 col-xs-12">
+      <div>
+        <img src="pictures/png/food/2.png" alt="Макдональдс" />
+      </div>
+
+      <div class="cardtextbg">
+        <p class="restname">
+          DimSum & Co - ЦДМ
+        </p>
+        <p class="kitchentype">
+          ₽ • Японская • Китайская • Азиатская
+        </p>
+        <p class="cookintime">
+          40 - 50 мин
+        </p>
+      </div>
+    </div>
+
+    <div class="card col-xl-4 col-md-6 col-xs-12">
+      <div>
+        <img src="pictures/png/food/3.png" alt="Макдональдс" />
+      </div>
+
+      <div class="cardtextbg">
+        <p class="restname">
+          ДвижОК - Манежная
+        </p>
+        <p class="kitchentype">
+          ₽ • Американская • Европейская
+        </p>
+        <p class="cookintime">
+          35 - 45 мин
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-md-4 col-lg-3">
+          <div class="block" style="background: #CC4A14"></div>
+        </div>
+        <div class="col-xs-6 col-md-4 col-lg-3">
+          <div class="block" style="background: #99583D"></div>
+        </div>
+        <div class="col-xs-6 col-md-4 col-lg-3">
+          <div class="block" style="background: #FF0000"></div>
+        </div>
+        <div class="col-xs-6 col-md-4 col-lg-3">
+          <div class="block" style="background: #40FF40"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
   </body>
 </html>

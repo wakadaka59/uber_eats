@@ -5,7 +5,7 @@
 .headerbox {
   display: flex;
   justify-content: flex-start;
-  width: 956px;
+  max-width: 956px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -78,12 +78,60 @@
 }
 .resttext {
   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 34px;
-display: flex;
-color: #1D1D1D;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  display: flex;
+  color: #1d1d1d;
 }
 
+/*блок с карточками еды */
 
+.card {
+  display: flex;
+
+}
+
+.restname {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #1d1d1d;
+  margin-bottom: 0.4em;
+}
+
+.kitchentype {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #626262;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+.cookintime {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  margin-top: 0.4em;
+  color: #1d1d1d;
+}
+
+.block {
+  margin: 8px 0;
+  padding: 32px;
+  text-align: center;
+  content: " ";
+}
