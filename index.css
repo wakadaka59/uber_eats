@@ -2,13 +2,6 @@
   box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
 }
 
-.headerbox {
-  display: flex;
-  justify-content: flex-start;
-  max-width: 956px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .logo {
   width: 50%;
   display: flex;
@@ -51,11 +44,7 @@
   display: flex;
   align-items: center;
 }
-.searchbox {
-  width: 956px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .textblock {
   font-family: Roboto;
   font-style: normal;
@@ -71,11 +60,7 @@
 }
 
 /*блок Рестораны в Москве*/
-.restbox {
-  width: 956px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .resttext {
   font-family: Roboto;
   font-style: normal;
@@ -87,13 +72,6 @@
 }
 
 /*блок с карточками еды */
-.cardbox {  
-  width: 956px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .card {
   
