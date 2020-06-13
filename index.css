@@ -7,15 +7,13 @@
 
 .headerbox {
   display: flex;
-  justify-content: flex-start;
-  max-width: 956px;
-  margin-left: auto;
-  margin-right: auto;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 .logo {
-  width: 50%;
   display: flex;
-  align-items: center;
+  
 }
 
 .headerbox1 {
@@ -26,6 +24,14 @@
 }
 .voiti {
   margin: 16px 10px;
+}
+
+.voitikorzina {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
 }
 .voitibutton {
   width: 78px;
@@ -55,7 +61,7 @@
   align-items: center;
 }
 .searchbox {
-  width: 956px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
