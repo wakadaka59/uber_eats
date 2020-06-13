@@ -1,99 +1,93 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/index.css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css"
-    />
-    <!-- <link rel="stylesheet" href="./vendor/flexboxgrid2.css" /> -->
-    <title>Мой проект</title>
-  </head>
-  <body>
-    <!-- Шапка сайта -->
-    <header class="headerbg">
-      <div class="headerbox">
-        <div class="logo">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="./vendor/normalize.css" />
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css" />
+  <!-- <link rel="stylesheet" href="./vendor/flexboxgrid2.css" /> -->
+  <title>Мой проект</title>
+</head>
+
+<body>
+  <!-- Шапка сайта -->
+  <header class="headerbg">
+    <div class="headerbox">
+      <div class="logo">
+        <a href="/" class="header_logo_link">
+          <img src="./pictures/svg/logoubereats.svg" alt="UBER EATS" class="header_logo_pic" />
+        </a>
+      </div>
+
+      <div class="headerbox1">
+        <div class="voiti">
+          <button class="voitibutton">
+            Войти
+          </button>
+        </div>
+
+        <div class="korzina">
           <a href="/" class="header_logo_link">
-            <img
-              src="./pictures/svg/logoubereats.svg"
-              alt="UBER EATS"
-              class="header_logo_pic"
-            />
+            <img src="./pictures/svg/basket.svg" alt="Корзина" class="header_korzina_pic" />
           </a>
-        </div>
-
-        <div class="headerbox1">
-          <div class="voiti">
-            <button class="voitibutton">
-              Войти
-            </button>
-          </div>
-
-          <div class="korzina">
-            <a href="/" class="header_logo_link">
-              <img
-                src="./pictures/svg/basket.svg"
-                alt="Корзина"
-                class="header_korzina_pic"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Поисковая секция -->
-    <section class="searchbg">
-      <div class="searchbox">
-        <div class="textblock">
-          Поиск по ресторанам и кухням
-        </div>
-      </div>
-    </section>
-
-    <!-- блок Рестораны в Москве -->
-    <div class="restbg">
-      <div class="restbox">
-        <div class="resttext">
-          Рестораны в Москве
         </div>
       </div>
     </div>
+  </header>
 
-    <!-- блок с карточками -->
+  <!-- Поисковая секция -->
+  <section class="searchbg">
+    <div class="searchbox">
+      <div class="textblock">
+        Поиск по ресторанам и кухням
+      </div>
+    </div>
+  </section>
 
-    <div class="cardbox">
+  <!-- блок Рестораны в Москве -->
+  <div class="restbg">
+    <div class="restbox">
+      <div class="resttext">
+        Рестораны в Москве
+      </div>
+    </div>
+  </div>
+
+  <!-- блок с карточками -->
+
+  <div class="cardbox">
+    <div class="row">
       <div class="card col-xl-4 col-md-6 col-xs-12">
         <div class="cardimg">
           <img class="cardimg1" src="pictures/png/food/1.png" alt="Макдональдс" />
           <figcaption class="restname">Макдоналдс - Газетный</figcaption>
           <figcaption class="kitchentype">₽₽ • Бургеры</figcaption>
           <figcaption class="cookintime">25 - 35 мин</figcaption>
-        </div>      
+        </div>
       </div>
-  
+
       <div class="card col-xl-4 col-md-6 col-xs-12">
         <div class="cardimg">
           <img class="cardimg1" src="pictures/png/food/2.png" alt="Макдональдс" />
           <figcaption class="restname">DimSum & Co - ЦДМ</figcaption>
           <figcaption class="kitchentype">₽ • Японская • Китайская • Азиатская</figcaption>
           <figcaption class="cookintime">40 - 50 мин</figcaption>
-        </div>    
+        </div>
       </div>
-  
+
       <div class="card col-xl-4 col-md-6 col-xs-12">
         <div class="cardimg">
-          <img class="cardimg1" src="pictures/png/food/3.png" alt="Макдональдс" />          
+          <img class="cardimg1" src="pictures/png/food/3.png" alt="Макдональдс" />
           <figcaption class="restname">ДвижОК - Манежная</figcaption>
           <figcaption class="kitchentype">₽ • Американская • Европейская</figcaption>
           <figcaption class="cookintime">35 - 45 мин</figcaption>
-        </div>      
+        </div>
       </div>
     </div>
+  </div>
 
-  </body>
+</body>
+
 </html>
