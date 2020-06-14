@@ -11,20 +11,6 @@
   justify-content: space-between;
   
 }
-.logo {
-  display: flex;
-  
-}
-
-.headerbox1 {
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
-  margin: 0 0 0 0;
-}
-.voiti {
-  margin: 16px 10px;
-}
 
 .voitikorzina {
   display: flex;
