@@ -80,10 +80,10 @@ header {
 /*блок с карточками еды */
 
 .cardimg {  
-display: block;
-max-width: 100%;
-height: auto;
-object-fit: cover; 
+width: 100%;
+max-width: 378.667px;
+min-height: 250px;
+max-height: 256px; 
 }
 
 .restname {
