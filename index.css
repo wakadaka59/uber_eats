@@ -1,24 +1,14 @@
-.body {
-  margin: 0;
-}
-.headerbg {
+header {
   box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+  width: 100%;  
+  background-color: white;  
 }
 
-.headerbox {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
-}
-
-.voitikorzina {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* header .row {
+  margin: auto 0;
+} */
 
 
-}
 .voitibutton {
   width: 78px;
   height: 40px;
@@ -36,33 +26,31 @@
   justify-content: center;
   color: #1d1d1d;
 }
-.korzina {
-  margin: 0 -7px 0 0;
-}
+
 
 /*Поисковая секция*/
-.searchbg {
-  height: 136px;
-  display: flex;
-  align-items: center;
-}
 .searchbox {
+  height: 136px;  
+  /* display: flex;
+  align-items: center; */
+}
+
+/* .searchbox {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
+} */
+
 .textblock {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
+  line-height: 24px;  
   color: #626262;
   opacity: 0.5;
-
   border-bottom: 1px solid #626262;
+  
 }
 
 /*блок Рестораны в Москве*/
@@ -70,10 +58,15 @@
   margin-bottom: 0.8em;
 }
 .restbox {
-  width: 956px;
+
+  /* width: 956px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
+.restbox .row {
+ 
+}
+
 .resttext {
   font-family: Roboto;
   font-style: normal;
@@ -81,7 +74,7 @@
   font-size: 22px;
   line-height: 34px;
   display: flex;
-  color: #1d1d1d;
+  color: #1d1d1d;  
 }
 
 /*блок с карточками еды */
