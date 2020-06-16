@@ -1,7 +1,14 @@
 header {
   box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
-  width: 100%;  
-  background-color: white;  
+  background-color: white;
+  width: 100%; 
+  max-height: 72px;
+  position: fixed;
+  top:0; left:0;  
+  z-index:1;  
+}
+.fakeheader {
+  height: 75px;
 }
 
 /* header .row {
@@ -81,9 +88,9 @@ header {
 
 .cardimg {  
 width: 100%;
-max-width: 378.667px;
+/* max-width: 368px;
 min-height: 250px;
-max-height: 256px; 
+max-height: 256px;  */
 }
 
 .restname {
@@ -124,3 +131,67 @@ max-height: 256px;
   padding-bottom: 20px;
 }
 
+/*нижний колонтитул*/
+footer {
+  background: #262626;
+}
+
+.whitelogo {
+  height: 116px;
+  display: flex;
+  border-bottom: 1px solid #626262;
+}
+
+.mainmenubtn {
+  background: #3B3B3B;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.world {
+  width: 15.72px;
+  padding-left: 8px;
+}
+.lang {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+width: 51px;
+padding-left: 16.28px;
+}
+.strelkabox {
+  display: flex;
+  justify-content: flex-end;
+  width: 220px
+}
+.strelka {
+  width: 14px;
+  padding-right: 5px;
+}
+.dropdown {
+  
+  
+}
+.dropdown-child {
+  display: none;
+  background: #3B3B3B;
+  border-radius: 2px;
+}
+.dropdown-child a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+  
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+  z-index: 1;
+}
