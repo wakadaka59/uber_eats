@@ -1,11 +1,12 @@
 header {
   box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
   background-color: white;
-  width: 100%; 
+  width: 100%;
   max-height: 72px;
   position: fixed;
-  top:0; left:0;  
-  z-index:1;  
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .fakeheader {
   height: 75px;
@@ -14,7 +15,6 @@ header {
 /* header .row {
   margin: auto 0;
 } */
-
 
 .voitibutton {
   width: 78px;
@@ -34,10 +34,9 @@ header {
   color: #1d1d1d;
 }
 
-
 /*Поисковая секция*/
 .searchbox {
-  height: 136px;  
+  height: 136px;
   /* display: flex;
   align-items: center; */
 }
@@ -53,11 +52,10 @@ header {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;  
+  line-height: 24px;
   color: #626262;
   opacity: 0.5;
   border-bottom: 1px solid #626262;
-  
 }
 
 /*блок Рестораны в Москве*/
@@ -65,13 +63,11 @@ header {
   margin-bottom: 0.8em;
 }
 .restbox {
-
   /* width: 956px;
   margin-left: auto;
   margin-right: auto; */
 }
 .restbox .row {
- 
 }
 
 .resttext {
@@ -81,14 +77,14 @@ header {
   font-size: 22px;
   line-height: 34px;
   display: flex;
-  color: #1d1d1d;  
+  color: #1d1d1d;
 }
 
 /*блок с карточками еды */
 
-.cardimg {  
-width: 100%;
-/* max-width: 368px;
+.cardimg {
+  width: 100%;
+  /* max-width: 368px;
 min-height: 250px;
 max-height: 256px;  */
 }
@@ -135,15 +131,23 @@ max-height: 256px;  */
 footer {
   background: #262626;
 }
+.whitelogobox {
+  border-bottom: 1px solid #626262;
+}
 
 .whitelogo {
   height: 116px;
   display: flex;
+}
+
+.mainmenubox {
+  margin-top: 32px;
+  min-height: 220px;
   border-bottom: 1px solid #626262;
 }
 
 .mainmenubtn {
-  background: #3B3B3B;
+  background: #3b3b3b;
   color: white;
   border: none;
   cursor: pointer;
@@ -159,39 +163,32 @@ footer {
 }
 .lang {
   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 15px;
-width: 51px;
-padding-left: 16.28px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  width: 51px;
+  padding-left: 16.28px;
 }
 .strelkabox {
   display: flex;
   justify-content: flex-end;
-  width: 220px
+  width: 220px;
 }
 .strelka {
   width: 14px;
   padding-right: 5px;
 }
-.dropdown {
-  
-  
+.social {
+  padding-top: 32px;
 }
-.dropdown-child {
-  display: none;
-  background: #3B3B3B;
-  border-radius: 2px;
-}
-.dropdown-child a {
-  color: white;
-  padding: 20px;
-  text-decoration: none;
-  display: block;
-  
-}
-.dropdown:hover .dropdown-child {
-  display: block;
-  z-index: 1;
+
+.listitem {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+color: #FFFFFF;
+list-style-type: none;
 }
