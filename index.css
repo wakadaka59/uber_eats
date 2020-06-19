@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+
+}
+
 header {
   box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
   background-color: white;
@@ -36,16 +41,8 @@ header {
 
 /*Поисковая секция*/
 .searchbox {
-  height: 136px;
-  /* display: flex;
-  align-items: center; */
+  height: 136px;  
 }
-
-/* .searchbox {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 .textblock {
   font-family: Roboto;
@@ -62,14 +59,6 @@ header {
 .restbg {
   margin-bottom: 0.8em;
 }
-.restbox {
-  /* width: 956px;
-  margin-left: auto;
-  margin-right: auto; */
-}
-.restbox .row {
-}
-
 .resttext {
   font-family: Roboto;
   font-style: normal;
@@ -130,14 +119,14 @@ max-height: 256px;  */
 /*нижний колонтитул*/
 footer {
   background: #262626;
-}
-.whitelogobox {
-  border-bottom: 1px solid #626262;
+  position: relative;
+  width: 100%;
 }
 
 .whitelogo {
   height: 116px;
   display: flex;
+  border-bottom: 1px solid #626262;
 }
 
 .mainmenubox {
@@ -182,7 +171,9 @@ footer {
 .social {
   padding-top: 32px;
 }
-
+.list {
+  margin-top: 5px;
+}
 .listitem {
   font-family: Roboto;
 font-style: normal;
@@ -191,4 +182,56 @@ font-size: 13px;
 line-height: 15px;
 color: #FFFFFF;
 list-style-type: none;
+padding-bottom: 23px;
+}
+.badges {
+  height: 120px;
+  border-bottom: 1px solid #626262;
+}
+
+@media screen and (max-width: 575px) {
+  .badges {
+      height: 84px;
+  }
+  .verybottom {
+    height: 167px;
+  }
+  .ubercopyright {
+    margin-top: 24px;
+  }
+  .processing {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .useragreement {
+    margin-bottom: 24px;;
+  }
+}
+.verybottom {
+  min-height: 93px;
+}
+.verybottomtext {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;  
+}
+
+.greenbutton {
+position: absolute;
+width: 80px;
+height: 80px;
+right: 16px;
+bottom: 24px;
+background: #59BD5A;
+border-radius: 2px;
+border-color: #59BD5A;
+outline: none;
+user-select: none;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1;
 }
